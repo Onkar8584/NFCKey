@@ -1,0 +1,76 @@
+C:\lint\lnt\co-gcc.lnt  45  Warning 686: Option '+cpp(.cc,.C)' is suspicious because of 'Upper case characters within extension '.C'; these will match lower case when +fff is on; try -fff'
+
+--- Module:   C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c (C++)
+static inline void PORTA_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(101): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(102): error 49: (Error -- Expected a type)
+static inline void PORTB_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(323): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(324): error 49: (Error -- Expected a type)
+static inline void PORTC_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(545): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(546): error 49: (Error -- Expected a type)
+static inline void PA1_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(55): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(56): error 49: (Error -- Expected a type)
+static inline void PA2_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(148): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(149): error 49: (Error -- Expected a type)
+static inline void Tx_Enable_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(241): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(242): error 49: (Error -- Expected a type)
+static inline void SCL_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(334): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(335): error 49: (Error -- Expected a type)
+static inline void SDA_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(427): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(428): error 49: (Error -- Expected a type)
+static inline void LED_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(520): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(521): error 49: (Error -- Expected a type)
+    PORTMUX.CTRLB |= PORTMUX_USART0_bm;
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(54): error 40: (Error -- Undeclared identifier 'PORTMUX' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(54): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(54): error 1013: (Error -- Symbol 'CTRLB' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(54): error 40: (Error -- Undeclared identifier 'CTRLB' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(54): error 40: (Error -- Undeclared identifier 'PORTMUX_USART0_bm' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(54): error 63: (Error -- Expected an lvalue)
+    PORTMUX.CTRLB |= PORTMUX_USART0_bm;
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(67): error 40: (Error -- Undeclared identifier 'PORTMUX' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(67): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(67): error 1013: (Error -- Symbol 'CTRLB' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(67): error 40: (Error -- Undeclared identifier 'CTRLB' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(67): error 40: (Error -- Undeclared identifier 'PORTMUX_USART0_bm' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(67): error 63: (Error -- Expected an lvalue)
+    USART_0_init();
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(69): error 534: (Warning -- Ignoring return value of function 'USART_0_init(void)' (compare with line 41, file include\usart.h) [MISRA 2012 Directive 4.7, required], [MISRA 2012 Rule 17.7, required])
+include\usart.h(41): error 830: (Info -- Location cited in prior message)
+    TIMER_0_init();
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(75): error 534: (Warning -- Ignoring return value of function 'TIMER_0_init(void)' (compare with line 37, file include\tca.h) [MISRA 2012 Directive 4.7, required], [MISRA 2012 Rule 17.7, required])
+include\tca.h(37): error 830: (Info -- Location cited in prior message)
+    CLKCTRL_init();
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(133): error 534: (Warning -- Ignoring return value of function 'CLKCTRL_init(void)' (compare with line 37, file include\clkctrl.h) [MISRA 2012 Directive 4.7, required], [MISRA 2012 Rule 17.7, required])
+include\clkctrl.h(37): error 830: (Info -- Location cited in prior message)
+    CPUINT_init();
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(139): error 534: (Warning -- Ignoring return value of function 'CPUINT_init(void)' (compare with line 37, file include\cpuint.h) [MISRA 2012 Directive 4.7, required], [MISRA 2012 Rule 17.7, required])
+include\cpuint.h(37): error 830: (Info -- Location cited in prior message)
+    SLPCTRL_init();
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(141): error 534: (Warning -- Ignoring return value of function 'SLPCTRL_init(void)' (compare with line 37, file include\slpctrl.h) [MISRA 2012 Directive 4.7, required], [MISRA 2012 Rule 17.7, required])
+include\slpctrl.h(37): error 830: (Info -- Location cited in prior message)
+    BOD_init();
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\driver_init.c(143): error 534: (Warning -- Ignoring return value of function 'BOD_init(void)' (compare with line 37, file include\bod.h) [MISRA 2012 Directive 4.7, required], [MISRA 2012 Rule 17.7, required])
+include\bod.h(37): error 830: (Info -- Location cited in prior message)
+
+--- Global Wrap-up
+
+ error 974: (Note -- Worst case function for stack usage: 'system_init' is finite, requires 48 bytes total stack in calling 'USART_0_initialization'. See +stack for a full report. [MISRA 2012 Rule 17.2, required])
+ error 900: (Note -- Successful completion, 44 messages produced)
