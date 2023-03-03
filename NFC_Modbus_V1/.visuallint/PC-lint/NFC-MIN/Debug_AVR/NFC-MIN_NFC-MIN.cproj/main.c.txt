@@ -1,0 +1,44 @@
+C:\lint\lnt\co-gcc.lnt  45  Warning 686: Option '+cpp(.cc,.C)' is suspicious because of 'Upper case characters within extension '.C'; these will match lower case when +fff is on; try -fff'
+
+--- Module:   C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\main.c (C++)
+static inline void PORTA_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(101): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(102): error 49: (Error -- Expected a type)
+static inline void PORTB_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(323): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(324): error 49: (Error -- Expected a type)
+static inline void PORTC_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(545): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(546): error 49: (Error -- Expected a type)
+static inline void PA1_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(55): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(56): error 49: (Error -- Expected a type)
+static inline void PA2_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(148): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(149): error 49: (Error -- Expected a type)
+static inline void Tx_Enable_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(241): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(242): error 49: (Error -- Expected a type)
+static inline void SCL_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(334): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(335): error 49: (Error -- Expected a type)
+static inline void SDA_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(427): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(428): error 49: (Error -- Expected a type)
+static inline void LED_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(520): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(521): error 49: (Error -- Expected a type)
+
+--- Global Wrap-up
+
+ error 974: (Note -- Worst case function for stack usage: 'main' is finite, requires 40 bytes total stack in calling 'atmel_start_init' (external). See +stack for a full report. [MISRA 2012 Rule 17.2, required])
+ error 900: (Note -- Successful completion, 20 messages produced)

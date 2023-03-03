@@ -1,0 +1,5 @@
+"TIMER_0_init",0,finite,0,"no function",
+"itoa",12,finite,12,"no function",
+"ltoa",12,finite,12,"no function",
+"ultoa",12,finite,12,"no function",
+"utoa",12,finite,12,"no function",
