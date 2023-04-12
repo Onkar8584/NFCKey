@@ -1,0 +1,24 @@
+C:\lint\lnt\co-gcc.lnt  45  Warning 686: Option '+cpp(.cc,.C)' is suspicious because of 'Upper case characters within extension '.C'; these will match lower case when +fff is on; try -fff'
+
+--- Module:   C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c (C++)
+    ccp_write_io((void *)&(CLKCTRL.MCLKCTRLB),
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 40: (Error -- Undeclared identifier 'CLKCTRL' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 1013: (Error -- Symbol 'MCLKCTRLB' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 40: (Error -- Undeclared identifier 'MCLKCTRLB' [MISRA 2012 Rule 1.3, required])
+                     | 0 << CLKCTRL_PEN_bp /* Prescaler enable: disabled */);
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(58): error 40: (Error -- Undeclared identifier 'CLKCTRL_PDIV_2X_gc' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(58): error 40: (Error -- Undeclared identifier 'CLKCTRL_PEN_bp' [MISRA 2012 Rule 1.3, required])
+    ccp_write_io((void *)&(CLKCTRL.MCLKCTRLB),
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 40: (Error -- Undeclared identifier 'CLKCTRL' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 1013: (Error -- Symbol 'MCLKCTRLB' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(56): error 40: (Error -- Undeclared identifier 'MCLKCTRLB' [MISRA 2012 Rule 1.3, required])
+                     | 0 << CLKCTRL_PEN_bp /* Prescaler enable: disabled */);
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(58): error 40: (Error -- Undeclared identifier 'CLKCTRL_PDIV_2X_gc' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\clkctrl.c(58): error 40: (Error -- Undeclared identifier 'CLKCTRL_PEN_bp' [MISRA 2012 Rule 1.3, required])
+
+--- Global Wrap-up
+
+ error 974: (Note -- Worst case function for stack usage: 'CLKCTRL_init' is finite, requires 12 bytes total stack in calling 'ccp_write_io'. See +stack for a full report. [MISRA 2012 Rule 17.2, required])
+ error 900: (Note -- Successful completion, 14 messages produced)

@@ -1,0 +1,8 @@
+C:\lint\lnt\co-gcc.lnt  45  Warning 686: Option '+cpp(.cc,.C)' is suspicious because of 'Upper case characters within extension '.C'; these will match lower case when +fff is on; try -fff'
+
+--- Module:   C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\slpctrl.c (C++)
+
+--- Global Wrap-up
+
+ error 974: (Note -- Worst case function for stack usage: 'itoa' is finite, requires 12 bytes total stack in calling 'no function'. See +stack for a full report. [MISRA 2012 Rule 17.2, required])
+ error 900: (Note -- Successful completion, 2 messages produced)
