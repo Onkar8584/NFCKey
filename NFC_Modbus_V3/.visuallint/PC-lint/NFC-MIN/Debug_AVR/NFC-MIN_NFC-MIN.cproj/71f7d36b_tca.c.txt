@@ -1,0 +1,45 @@
+C:\lint\lnt\co-gcc.lnt  45  Warning 686: Option '+cpp(.cc,.C)' is suspicious because of 'Upper case characters within extension '.C'; these will match lower case when +fff is on; try -fff'
+
+--- Module:   C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c (C++)
+    TCA0.SINGLE.INTCTRL = 0 << TCA_SINGLE_CMP0_bp   /* Compare 0 Interrupt: disabled */
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(69): error 40: (Error -- Undeclared identifier 'TCA0' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(69): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(69): error 1013: (Error -- Symbol 'SINGLE' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(69): error 40: (Error -- Undeclared identifier 'SINGLE' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(69): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(69): error 1013: (Error -- Symbol 'INTCTRL' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(69): error 40: (Error -- Undeclared identifier 'INTCTRL' [MISRA 2012 Rule 1.3, required])
+                          | 0 << TCA_SINGLE_CMP1_bp /* Compare 1 Interrupt: disabled */
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(70): error 40: (Error -- Undeclared identifier 'TCA_SINGLE_CMP0_bp' [MISRA 2012 Rule 1.3, required])
+                          | 0 << TCA_SINGLE_CMP2_bp /* Compare 2 Interrupt: disabled */
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(71): error 40: (Error -- Undeclared identifier 'TCA_SINGLE_CMP1_bp' [MISRA 2012 Rule 1.3, required])
+                          | 1 << TCA_SINGLE_OVF_bp; /* Overflow Interrupt: enabled */
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(72): error 40: (Error -- Undeclared identifier 'TCA_SINGLE_CMP2_bp' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(72): error 40: (Error -- Undeclared identifier 'TCA_SINGLE_OVF_bp' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(72): error 63: (Error -- Expected an lvalue)
+    TCA0.SINGLE.PER = 0x4e1e; /* Period: 0x4e1f */
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 40: (Error -- Undeclared identifier 'TCA0' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 1013: (Error -- Symbol 'SINGLE' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 40: (Error -- Undeclared identifier 'SINGLE' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 1013: (Error -- Symbol 'PER' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 40: (Error -- Undeclared identifier 'PER' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(74): error 63: (Error -- Expected an lvalue)
+    TCA0.SINGLE.CTRLA = TCA_SINGLE_CLKSEL_DIV1_gc    /* System Clock */
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(76): error 40: (Error -- Undeclared identifier 'TCA0' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(76): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(76): error 1013: (Error -- Symbol 'SINGLE' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(76): error 40: (Error -- Undeclared identifier 'SINGLE' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(76): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(76): error 1013: (Error -- Symbol 'CTRLA' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(76): error 40: (Error -- Undeclared identifier 'CTRLA' [MISRA 2012 Rule 1.3, required])
+                        | 1 << TCA_SINGLE_ENABLE_bp; /* Module Enable: enabled */
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(77): error 40: (Error -- Undeclared identifier 'TCA_SINGLE_CLKSEL_DIV1_gc' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(77): error 40: (Error -- Undeclared identifier 'TCA_SINGLE_ENABLE_bp' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\src\tca.c(77): error 63: (Error -- Expected an lvalue)
+
+--- Global Wrap-up
+
+ error 974: (Note -- Worst case function for stack usage: 'itoa' is finite, requires 12 bytes total stack in calling 'no function'. See +stack for a full report. [MISRA 2012 Rule 17.2, required])
+ error 900: (Note -- Successful completion, 32 messages produced)

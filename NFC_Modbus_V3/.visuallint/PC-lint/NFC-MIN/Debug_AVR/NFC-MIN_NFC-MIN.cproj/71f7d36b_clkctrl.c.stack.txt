@@ -1,0 +1,7 @@
+"CLKCTRL_init",0,finite,12,"ccp_write_io",
+"ccp_write_io",4,finite,4,"no function",
+"ccp_write_spm",4,finite,4,"no function",
+"itoa",12,finite,12,"no function",
+"ltoa",12,finite,12,"no function",
+"ultoa",12,finite,12,"no function",
+"utoa",12,finite,12,"no function",
