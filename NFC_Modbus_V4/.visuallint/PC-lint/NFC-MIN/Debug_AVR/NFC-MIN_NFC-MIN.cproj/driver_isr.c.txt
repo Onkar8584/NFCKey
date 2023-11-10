@@ -1,0 +1,69 @@
+C:\lint\lnt\co-gcc.lnt  45  Warning 686: Option '+cpp(.cc,.C)' is suspicious because of 'Upper case characters within extension '.C'; these will match lower case when +fff is on; try -fff'
+
+--- Module:   C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c (C++)
+static inline void PORTA_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(101): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(102): error 49: (Error -- Expected a type)
+static inline void PORTB_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(323): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(324): error 49: (Error -- Expected a type)
+static inline void PORTC_pin_set_isc(const uint8_t pin, const PORT_ISC_t isc)
+include\port.h(545): error 10: (Error -- Expecting ',' or ')')
+{
+include\port.h(546): error 49: (Error -- Expected a type)
+static inline void PA1_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(55): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(56): error 49: (Error -- Expected a type)
+static inline void PA2_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(148): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(149): error 49: (Error -- Expected a type)
+static inline void Tx_Enable_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(241): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(242): error 49: (Error -- Expected a type)
+static inline void SCL_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(334): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(335): error 49: (Error -- Expected a type)
+static inline void SDA_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(427): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(428): error 49: (Error -- Expected a type)
+static inline void LED_set_isc(const PORT_ISC_t isc)
+include\atmel_start_pins.h(520): error 10: (Error -- Expecting ',' or ')')
+{
+include\atmel_start_pins.h(521): error 49: (Error -- Expected a type)
+#include <compiler.h>
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(37): error 537: (Warning -- Repeated include file 'utils\compiler.h')
+    if(USART0.STATUS & USART_TXCIF_bm)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(73): error 40: (Error -- Undeclared identifier 'USART0' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(73): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(73): error 1013: (Error -- Symbol 'STATUS' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(73): error 40: (Error -- Undeclared identifier 'STATUS' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(73): error 40: (Error -- Undeclared identifier 'USART_TXCIF_bm' [MISRA 2012 Rule 1.3, required])
+    USART0.STATUS |= (0<<USART_TXCIE_bp);  //Clear the transmission complete status bit
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(78): error 40: (Error -- Undeclared identifier 'USART0' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(78): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(78): error 1013: (Error -- Symbol 'STATUS' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(78): error 40: (Error -- Undeclared identifier 'STATUS' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(78): error 40: (Error -- Undeclared identifier 'USART_TXCIE_bp' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(78): error 63: (Error -- Expected an lvalue)
+    TCA0.SINGLE.INTFLAGS = TCA_SINGLE_OVF_bm;
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 40: (Error -- Undeclared identifier 'TCA0' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 1013: (Error -- Symbol 'SINGLE' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 40: (Error -- Undeclared identifier 'SINGLE' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 10: (Error -- Expecting a structure or union)
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 1013: (Error -- Symbol 'INTFLAGS' not a member of class '')
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 40: (Error -- Undeclared identifier 'INTFLAGS' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 40: (Error -- Undeclared identifier 'TCA_SINGLE_OVF_bm' [MISRA 2012 Rule 1.3, required])
+C:\Users\anvenkataraman\Documents\Atmel Studio\7.0\NFC-MIN\NFC-MIN\driver_isr.c(138): error 63: (Error -- Expected an lvalue)
+
+--- Global Wrap-up
+
+ error 974: (Note -- Worst case function for stack usage: 'USART0_RXC_vect' is finite, requires 40 bytes total stack in calling 'USART_StoreData' (external). See +stack for a full report. [MISRA 2012 Rule 17.2, required])
+ error 900: (Note -- Successful completion, 41 messages produced)

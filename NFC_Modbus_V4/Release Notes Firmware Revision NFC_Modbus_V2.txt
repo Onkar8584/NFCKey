@@ -1,0 +1,23 @@
+Client Name:-	A.O. Smith	
+
+Project Name:- Nova	
+
+Project Lead:- R. Prabhu  
+
+Firmware revision:- V2
+
+Revision Date:- 12/04/2023
+
+Majot Modifications:-	
+
+                        In firmware V2 following thins are implemented,
+			
+			1.	FC16
+				All multiple register write operations are working good without error.
+			2. 	FC06
+				Modbus response is exactly Echo of command
+
+
+Developed By:-		Onkar Raut.
+
+Tested By:- 		Onkar Raut.
